@@ -31,8 +31,8 @@ app.use(helmet({
 // CORS configuration - allow Vite dev server and production domain with credentials
 const allowedOrigins = process.env.NODE_ENV === 'production'
   ? [
-      process.env.FRONTEND_URL || 'https://cutandbulk.onrender.com',
-      'https://cutandbulk.onrender.com',
+      process.env.FRONTEND_URL || 'https://burnbyte.onrender.com',
+      'https://burnbyte.onrender.com',
       'https://comp229-3mmr.onrender.com'
     ]
   : ['http://localhost:5173', 'http://127.0.0.1:5173'];
